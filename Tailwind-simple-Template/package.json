@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-simple-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css",
+    "watch": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^2.2.19"
+  }
+}
