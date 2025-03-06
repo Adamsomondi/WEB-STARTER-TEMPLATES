@@ -23,9 +23,11 @@ npm install -g sass
 
 <p><b>Clone this repository</b></p>
 
+RUN ON GITBASH
+
  ```sh
 git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES.git
-cd Bootstrap-simple-Template
+cd Bootstrap-simple-Template\
 
 npm install --save-dev autoprefixer@10.4.20 bootstrap@5.3.3 postcss-cli@11.0.0 postcss@8.4.35 sass@1.63.6
 
