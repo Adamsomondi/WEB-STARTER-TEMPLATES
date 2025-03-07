@@ -139,7 +139,7 @@ php artisan key:generate
 
 ```
 ## Note
-Edit .env to connect to your database
+Edit .env by uncommenting,adding your details and save to connect to your database.
 
 <pre>
 DB_CONNECTION=mysql
@@ -150,17 +150,22 @@ DB_USERNAME=root
 DB_PASSWORD=your-password
 </pre>
 
-## Ensure MySQL is running.
+## Ensure MySQL is running Before Executing
+```sh
+Get-Service MySQL*
+```
 ```sh
 php artisan migrate
 ```
 
+## Terminal 1
 ```sh
 npm run dev
+```
+## Terminal 2
+```sh
 php artisan serve
 ```
-
-
 
 
 
