@@ -2,6 +2,11 @@
 A collection of ready-to-use templates for every modern web development stack. Whether you're building with Tailwind CSS, Bootstrap,Material design,React,Nextjs,Gatsby,Angular,Vue Node.js, Django,flask Express.js,laravel get started quickly with pre-configured setups.
 # Bootstrap-simple-Template
 
+### Before gitclone
+```sh
+git config --global http.postBuffer 524288000
+git config --global core.compression 0
+```
 <p>A minimal Bootstrap setup using npm and SASS,but without build tools. Perfect for quick learning,prototyping and small projects</p>
   <pre>
   Bootstrap-simple-Template/
