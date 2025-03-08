@@ -200,6 +200,7 @@ Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission is
 
 cd  WEB-STARTER-TEMPLATES/Django-Project
 
+Remove-Item -Recurse -Force my_env
  python -m venv my_env
  .\my_env\Scripts\activate
 pip install -r requirements.txt
