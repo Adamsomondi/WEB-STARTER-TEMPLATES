@@ -215,12 +215,13 @@ pip install -r requirements.txt
 cd mysite
 python manage.py migrate
 ```
-
+```sh
 python manage.py runserver 8080
 ```
 
-## Creating an application
+## Start Creating your  application
+
 ```sh
 python manage.py startapp yourapp
 ```
-## 
+
