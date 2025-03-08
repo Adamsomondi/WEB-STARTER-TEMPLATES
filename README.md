@@ -166,7 +166,55 @@ npm run dev
 ```sh
 php artisan serve
 ```
+## Django-project-Template
 
+<p>A minimal Django  setup using the Anaconda Distribution.Perfect for quick learning,prototyping and can be scaled for any projects and application</p>
+ <pre>
+my_django_project/
+├── my_env/                  
+├── mysite/                  
+│   ├── mysite/
+│   │   ├── init.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   ├── manage.py
+├── myapp/                   //The application you want to build
+│   ├── init.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── views.py
+│   ├── migrations/
+│   └── templates/
+├── requirements.txt         # List of project dependencies create using pip freeze > requirements.txt
+└── .gitignore               # Git ignore file using gitignore.io
+ </pre>
+  <p><b>Clone this repository</b></p>
 
+Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone in Anaconda Powershell.
+ ```sh
+ git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES.git
 
+cd  WEB-STARTER-TEMPLATES/Django-Project
 
+ python -m venv my_env
+ .\my_env\Scripts\activate
+pip install -r requirements.txt
+````
+
+```sh
+cd mysite
+python manage.py migrate
+```
+
+python manage.py runserver 8080
+```
+
+## Creating an application
+```sh
+python manage.py startapp yourapp
+```
+## 
