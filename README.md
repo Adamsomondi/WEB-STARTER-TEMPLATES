@@ -1,12 +1,14 @@
 # WEB-STARTER-TEMPLATES 1.0
-A collection of ready-to-use templates for modern web development stack.Get started learning and prototyping quickly with pre-configured setups.
-# Bootstrap-simple-Template
+Get started prototyping quickly with pre-configured setups.
 
 ### Before gitclone
 ```sh
 git config --global http.postBuffer 524288000
 git config --global core.compression 0
 ```
+
+# Bootstrap-simple-Template
+
 <p>A minimal Bootstrap setup using npm and SASS,but without build tools. Perfect for quick learning,prototyping and small projects</p>
   <pre>
   Bootstrap-simple-Template/
@@ -24,11 +26,15 @@ git config --global core.compression 0
   </pre>
   
 ### Install Sass globally
+
+```sh
 npm install -g sass
+```
 
 <p><b>Clone this repository</b></p>
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b> on windows to avoid permission issues before git clone.
+
  ```sh
 git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
@@ -59,6 +65,7 @@ tailwind-simple-Template/
 
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone.
+
  ```sh
 git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
@@ -144,7 +151,7 @@ php artisan key:generate
 
 ```
 ## Note
-Edit .env by uncommenting,adding your details and save to connect to your database.
+Edit .env by uncommenting #-delete,adding your details and save to connect to your database.
 
 <pre>
 DB_CONNECTION=mysql
@@ -156,18 +163,23 @@ DB_PASSWORD=your-password
 </pre>
 
 ## Ensure MySQL is running Before Executing
+
 ```sh
 Get-Service MySQL*
 ```
+
 ```sh
 php artisan migrate
 ```
 
 ## Terminal 1
+
 ```sh
 npm run dev
 ```
+
 ## Terminal 2
+
 ```sh
 php artisan serve
 ```
@@ -175,7 +187,7 @@ php artisan serve
 
 <p>A minimal Django  setup using the Anaconda Distribution.Perfect for quick learning,prototyping and can be scaled for any projects and application</p>
  <pre>
-my_django_project/
+Django_Project/
 ├── my_env/                  
 ├── mysite/                  
 │   ├── mysite/
@@ -197,6 +209,7 @@ my_django_project/
 ├── requirements.txt         # List of project dependencies create using pip freeze > requirements.txt
 └── .gitignore               # Git ignore file using gitignore.io
  </pre>
+ 
   <p><b>Clone this repository</b></p>
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone in Anaconda Powershell.
