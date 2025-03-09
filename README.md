@@ -1,5 +1,5 @@
 # WEB-STARTER-TEMPLATES 1.0
-A collection of ready-to-use templates for every modern web development stack. Whether you're building with Tailwind CSS, Bootstrap,Material design,React,Nextjs,Gatsby,Angular,Vue Node.js, Django,flask Express.js,laravel get started quickly with pre-configured setups.
+A collection of ready-to-use templates for modern web development stack.Get started learning and prototyping quickly with pre-configured setups.
 # Bootstrap-simple-Template
 
 ### Before gitclone
