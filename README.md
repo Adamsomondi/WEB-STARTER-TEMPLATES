@@ -214,7 +214,7 @@ Django_Project/
  
   <p><b>Clone this repository</b></p>
 
-Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone in Anaconda Powershell.
+Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone in <b>Anaconda Powershell</b>.
  ```sh
  git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
