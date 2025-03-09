@@ -218,7 +218,7 @@ Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission is
  ```sh
  git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
-cd  WEB-STARTER-TEMPLATES-1.O/Django-Project
+cd WEB-STARTER-TEMPLATES-1.0/Django-Project
 
 Remove-Item -Recurse -Force my_env
  python -m venv my_env
