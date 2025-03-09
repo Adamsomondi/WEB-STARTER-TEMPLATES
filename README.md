@@ -141,7 +141,7 @@ Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission is
  ```sh
  git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
-cd  WEB-STARTER-TEMPLATES-1.O/laravel-project
+cd WEB-STARTER-TEMPLATES-1.0/laravel-project
 
 composer install
 npm install
