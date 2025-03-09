@@ -30,9 +30,9 @@ npm install -g sass
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b> on windows to avoid permission issues before git clone.
  ```sh
-git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES.git
+git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
- cd  WEB-STARTER-TEMPLATES/Bootstrap-simple-Template
+ cd  WEB-STARTER-TEMPLATES-1.0/Bootstrap-simple-Template
 
 npm install --save-dev autoprefixer@10.4.20 bootstrap@5.3.3 postcss-cli@11.0.0 postcss@8.4.35 sass@1.63.6
 
@@ -60,9 +60,9 @@ tailwind-simple-Template/
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone.
  ```sh
-git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES.git
+git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
-cd  WEB-STARTER-TEMPLATES/Tailwind-simple-Template
+cd  WEB-STARTER-TEMPLATES-1.0/Tailwind-simple-Template
 
 npm install -D autoprefixer@10.4.20 postcss-cli@11.0.0 postcss@8.5.3 tailwindcss@2.2.19
 
@@ -132,9 +132,9 @@ laravel-project/
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone.
  ```sh
- git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES.git
+ git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
-cd  WEB-STARTER-TEMPLATES/laravel-project
+cd  WEB-STARTER-TEMPLATES-1.O/laravel-project
 
 composer install
 npm install
@@ -201,9 +201,9 @@ my_django_project/
 
 Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone in Anaconda Powershell.
  ```sh
- git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES.git
+ git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-1.0.git
 
-cd  WEB-STARTER-TEMPLATES/Django-Project
+cd  WEB-STARTER-TEMPLATES-1.O/Django-Project
 
 Remove-Item -Recurse -Force my_env
  python -m venv my_env
