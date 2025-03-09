@@ -164,6 +164,8 @@ DB_PASSWORD=your-password
 
 ## Ensure MySQL is running Before Executing
 
+<p><b>Open Powershell</b></p>
+
 ```sh
 Get-Service MySQL*
 ```
