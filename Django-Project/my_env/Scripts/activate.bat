@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\HP\WEB-STARTER-TEMPLATES\Django-Project\my_env
+set VIRTUAL_ENV=C:\Users\HP\WEB-STARTER-TEMPLATES-1.0\Django-Project\my_env
 
 if not defined PROMPT set PROMPT=$P$G
 
