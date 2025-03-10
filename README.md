@@ -79,7 +79,7 @@ npm run watch
 
 ## Laravel-project-template
 
-<p>A minimal laravel setup using php built in server[choco install php] and Composer PHP package manager[choco install composer setup].Perfect for quick learning,prototyping and small projects</p>
+<p>A minimal laravel setup using php built in server[choco install php] and Composer PHP package manager[choco install composer setup] and locally setup MySQL.Perfect for quick learning,prototyping and small projects</p>
  <pre>
 laravel-project/
 ├── app/
@@ -162,7 +162,7 @@ DB_USERNAME=root
 DB_PASSWORD=your-password
 </pre>
 
-## Ensure MySQL is running Before Executing
+## Ensure MySQL is Installed Locally and running Before Executing
 
 <p><b>Open Powershell</b></p>
 
@@ -177,13 +177,13 @@ php artisan migrate
 ## Terminal 1
 
 ```sh
-npm run dev
+php artisan serve
 ```
 
 ## Terminal 2
 
 ```sh
-php artisan serve
+npm run dev
 ```
 ## Django-project-Template
 
@@ -220,7 +220,6 @@ Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission is
 
 cd WEB-STARTER-TEMPLATES-1.0/Django-Project
 
-Remove-Item -Recurse -Force my_env
  python -m venv my_env
  .\my_env\Scripts\activate
 pip install -r requirements.txt
