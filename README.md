@@ -153,12 +153,14 @@ php artisan key:generate
 ## Note
 Edit .env by uncommenting #-delete,adding your details and save to connect to your database.
 
+Prefer Using serverless SQlite
+
 <pre>
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=your-database-name
-DB_USERNAME=root
+DB_USERNAME=your-database-username
 DB_PASSWORD=your-password
 </pre>
 
